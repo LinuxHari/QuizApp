@@ -1,0 +1,113 @@
+[
+    {
+      "id": "Q1",
+      "question": "What is React?",
+      "options": [
+        "A JavaScript framework",
+        "A JavaScript library",
+        "A programming language",
+        "An operating system"
+      ],
+      "answer": "A JavaScript library"
+    },
+    {
+      "id": "Q2",
+      "question": "What is JSX in React?",
+      "options": [
+        "JavaScript XML",
+        "JavaScript Extension",
+        "Java Syntax XML",
+        "JavaScript and XML"
+      ],
+      "answer": "JavaScript XML"
+    },
+    {
+      "id": "Q3",
+      "question": "What is the purpose of state in React?",
+      "options": [
+        "To store and manage data within a component",
+        "To style components",
+        "To handle routing",
+        "To create functional components"
+      ],
+      "answer": "To store and manage data within a component"
+    },
+    {
+      "id": "Q4",
+      "question": "What is a React component?",
+      "options": [
+        "A function that returns React elements",
+        "A built-in HTML tag",
+        "A style sheet in React",
+        "A server-side script in React"
+      ],
+      "answer": "A function that returns React elements"
+    },
+    {
+      "id": "Q5",
+      "question": "What is the purpose of props in React?",
+      "options": [
+        "To manage component state",
+        "To pass data from parent to child components",
+        "To handle events",
+        "To create custom hooks"
+      ],
+      "answer": "To pass data from parent to child components"
+    },
+    {
+      "id": "Q6",
+      "question": "What is the virtual DOM in React?",
+      "options": [
+        "A feature to create 3D effects in React components",
+        "A lightweight version of the actual DOM",
+        "A tool for debugging React applications",
+        "A database management system in React"
+      ],
+      "answer": "A lightweight version of the actual DOM"
+    },
+    {
+      "id": "Q7",
+      "question": "What is the purpose of the useEffect hook in React?",
+      "options": [
+        "To handle user input",
+        "To perform side effects in functional components",
+        "To create animations",
+        "To manage component styling"
+      ],
+      "answer": "To perform side effects in functional components"
+    },
+    {
+      "id": "Q8",
+      "question": "What is Redux in React?",
+      "options": [
+        "A built-in state management system",
+        "A server-side rendering tool",
+        "A popular JavaScript library",
+        "A predictable state container for JavaScript apps"
+      ],
+      "answer": "A predictable state container for JavaScript apps"
+    },
+    {
+      "id": "Q9",
+      "question": "What is the role of the map() function in React?",
+      "options": [
+        "To create a new array with modified elements",
+        "To define routes in a React application",
+        "To handle user authentication",
+        "To style components"
+      ],
+      "answer": "To create a new array with modified elements"
+    },
+    {
+      "id": "Q10",
+      "question": "What are controlled components in React?",
+      "options": [
+        "Components that are managed by a state",
+        "Components without any state",
+        "Components with inline styles",
+        "Components with static data"
+      ],
+      "answer": "Components that are managed by a state"
+    }
+  ]
+  

@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.hero{
+  background: url('/quizbg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
