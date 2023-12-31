@@ -46,7 +46,7 @@ function App() {
 
   return (
     <main className="hero min-h-screen relative">
-      <section className="absolute left-0 right-0 top-0 bottom-0 min-w-[250px] w-[30%] h-fit grid bg-white m-auto text-black p-10 gap-5 rounded-md shadow-xl">
+      <section className="absolute left-0 right-0 top-0 bottom-0 min-w-[350px] w-[35%] h-fit grid bg-white m-auto text-black p-10 gap-5 rounded-md shadow-xl">
         <div className="flex justify-between font-medium">
           <span className="text-secondary-500">
             Question {question + 1}/{data.length}
@@ -62,7 +62,7 @@ function App() {
           currentQuestion={currentQuestion}
           isLocked={isLocked}
           userAnswer={userAnswer}
-          onClick={(value: string) => handleClick(value)}
+          onClick={handleClick}
         />
         <Navigation
           question={question}
@@ -74,7 +74,7 @@ function App() {
           <hr className="h-[1px] w-full bg-black mx-5" />
           <button
             className="bg-secondary-500 w-fit font-medium text-white px-4 py-2 rounded-md"
-            onClick={() => handleReset()}
+            onClick={handleReset}
           >
             Reset
           </button>
@@ -82,7 +82,7 @@ function App() {
         </div>
       </section>
       {answeredQuestions.length === data.length && (
-        <Modal points={points} total={numOfQuestions} onClick={() => handleReset()} />
+        <Modal points={points} total={numOfQuestions} onClick={handleReset} />
       )}
     </main>
   );
