@@ -4,4 +4,4 @@
 
 ### 60-30-10 color format is used for styling
 
-The application is in low now <a href="https://linuxhari.github.io/react-quiz-app/">here</a>
+The application is in live now <a href="https://linuxhari.github.io/react-quiz-app/">here</a>
